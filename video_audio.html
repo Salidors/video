@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--audio-->
+    <audio src="example.mp3">название аудио файла</audio>
+    <hr>
+    <!--video-->
+    <video width="320" height="240" src="">название видео файла</video>
+    <hr>
+    <video controls width="320" height="240"></video>
+    <hr>
+    <video controls loop width="320" height="240"></video>
+    <hr>
+    <video controls autoplay width="320" height="240"></video>
+    <hr>
+    <video controls muted width="320" height="240">
+        <source src="example.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <video controls poster="preview.png" width="320" height="240">
+        <source src="example.mp4" type="video/mp4">
+    </video>
+
+    <!--    Атрибут -->
+    <!--ID-->
+    <h1 id="heading">просто текст</h1>
+    <hr>
+    <!--class-->
+    <p class="text area">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, aut.</p>
+    <p class="text idea">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, aut.</p>
+    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, aut.</p>
+    <hr>
+    <!--title-->
+    <h2 title="HiperText">HTML</h2>
+    <hr>
+    <!--Стили-->
+    <h2 style="color: green; font-size: 40px;">CSS</h2>
+    <hr>
+    <!--возможное изменение текста-->
+    <h2 contenteditable="true">возможное изменение текста</h2>
+    <hr>
+    <!--проверка правописания-->
+    <textarea spellcheck="true" name="text" cols="45" rows="10">возможное изменение текста</textarea>
+    <hr>
+    <!--tabindex-->
+    <input type="text" placeholder="name" tabindex="1"><br>
+    <input type="text" placeholder="password" tabindex="2"><br>
+    <input type="button" value="submit" tabindex="3"><br>
+    <hr>
+    <!--редактирование текста-->
+    <h2 dir="rtl">Hello, world!</h2>
+    <hr>
+
+    <!--изменение языка-->
+    <h2 lang="gr">
+        <q>
+            ::before
+            Hello, world!
+            ::after
+        </q>
+    </h2><br>
+    <h2 lang="en">
+        <q>
+            ::before
+            Hello, world!
+            ::after
+        </q>
+    </h2><br>
+    <h2 lang="fr">
+        <q>
+            ::before
+            Hello, world!
+            ::after
+        </q>
+    </h2>
+
+</body>
+
+</html>
